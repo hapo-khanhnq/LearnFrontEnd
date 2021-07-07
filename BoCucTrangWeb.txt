@@ -1,0 +1,71 @@
+- Phần <header>
+	+ div: chứa ảnh logo
+	+ nav: chứa danh sách ul gồm 4 đường link HOME ALL, COURSES, LOGIN/REGISTER, PROFILE
+  + phần nav bar của bootstrap để em tìm hiểu thêm.
+
+
+
+- Phần <body>
+  + section1: 
+    *div(background-image): chứa banner: text + hình ảnh
+    *div: Bong bóng chat
+    *div: Hiển thị nội dung chat (hiển thị theo điều kiện)
+
+  + section2 chứa 3 div chứa 3 khóa học
+    *div: chứa khóa học html+css+js (hình ảnh + text)
+      ~img: chứa hình ảnh
+      ~div: chứa phần text giới thiệu khóa học
+    *div: chứa khóa học laravel (hình ảnh + text)
+      ~img: chứa hình ảnh
+      ~div: chứa phần text giới thiệu khóa học
+    *div: chưa khóa học Php (hình ảnh + text)
+      ~img: chứa hình ảnh
+      ~div: chứa phần text giới thiệu khóa học
+
+  + section3 chứa 3 div chứa 3 other khóa học
+    *div: chứa đoạn text "Other courses"
+    *div: chứa khóa học css (hình ảnh + text)
+      ~img: chứa hình ảnh
+      ~div: chứa phần text giới thiệu khóa học
+    *div: chứa khóa học ruby on rails (hình ảnh + text)
+      ~img: chứa hình ảnh
+      ~div: chứa phần text giới thiệu khóa học
+    *div: chưa khóa học Java (hình ảnh + text)
+      ~img: chứa hình ảnh
+      ~div: chứa phần text giới thiệu khóa học
+    *div: chưa link "view all our courses"
+
+  +section4
+    *div: (background-image): chứa hình ảnh + text
+      ~div: chứa cái ảnh nghiêng nghiêng
+      ~div: các đoạn text, danh sách câu hỏi
+      ~dic: chứa cái ảnh máy tính nhỏ hơn
+
+  +section5
+    *h1: để chứa tiêu đề: Feedback
+    *p: Chứa phần text nhỏ nhỏ phía dưới tiêu đề 
+    *div: Chứa phần Feedback
+      ~div: chứa nội dung feedback của 1 người
+        #div: nội dung Feedback
+        #div: chứa tên, thông tin liên quan của người Feedback
+
+  +section6
+    * div (background-image): 
+      ~h1: Chứa phần tiêu đề chữ to 
+      ~div-button: Chứa phần button
+
+  +section7
+    * h1: chứa tiêu đề 
+    * div*3: Chưa các nội dung text
+
+- Phần <footer>
+	+ div: chứa ảnh logo
+	       chứa text bên dưới logo Interactive ...
+	+ div: chứa cái menu-left gồm các đường link Home, Features....
+	+ div: chứa cái menu-right gồm các đường link Contact, Terms of Use,...
+	+ div: chứa danh sách ul chứa 3 cái biểu tượng fb, điện thoại, Images
+	+ div: chứa text 2020 HapoLern, Inc ,......
+
+
+
+	

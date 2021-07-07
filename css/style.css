@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #505353;
+    color: white;
+}
+
+.banner {
+    background: url(../images/Hapo_Learn_banner1.png) no-repeat;
+    background-size: cover;
+    height: 655px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 {
+    background: url(../images/background_section4.png) no-repeat;
+    background-size: cover;
+    height: 740px;
+    color: white;
+}
+
+.section6 {
+    background: url(../images/background_section6.png) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.section4 img {
+    width: 100px;
+    height: 150px;
+}
