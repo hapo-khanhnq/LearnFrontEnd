@@ -32,7 +32,10 @@ html {
 
 body {
     overflow-x: hidden;
-    height: 300px;
+}
+
+section {
+    overflow: hidden;
 }
 
 header {
@@ -57,13 +60,13 @@ header .container img {
 
 header a {
     color: var(--header_aTag_color);
+    padding: 8px 15px;
 }
 
 header a:hover {
     color: var(--header_hoverATag_color);
     border-radius: 17px;
     background-color: var(--header_hoverBackgroundATag_color);
-    padding: 5px 10px;
 }
 
 header nav ul {
@@ -129,11 +132,21 @@ header .fa-times {
         margin: 0;
     }
     header .nav ul li a {
-        font-size: 3rem;
+        font-size: 2rem;
         display: block;
     }
     header .nav-toggle {
         top: 50%;
         opacity: 1;
     }
+}
+
+
+/*banner_section*/
+
+.banner_section .container .banner {
+    background: url(../images/Hapo_Learn_banner1.png) no-repeat;
+    background-size: cover;
+    height: 655px;
+    width: auto;
 }
